@@ -1,7 +1,7 @@
 package val
 
 // nilOr if ptr is nil, return defaultValue
-func nilOr[T any, PT interface{ *T }](ptr PT, defaultValue T) T {
+func NilOr[T any, PT interface{ *T }](ptr PT, defaultValue T) T {
 	if ptr == nil {
 		return defaultValue
 	}
