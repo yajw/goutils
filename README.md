@@ -8,7 +8,7 @@ requires go version `>=1.18`
 
 ## val
 
-for `if nil return default value`
+for `if nil return a default value`
 ```go
 import (
     "github.com/yajw/goutils/val"
