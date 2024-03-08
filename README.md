@@ -5,6 +5,10 @@ requires go version `>=1.18`
 
 # Examples
 
+
+## val
+
+// if nil return default value
 ```go
 import (
     "github.com/yajw/goutils/val"
