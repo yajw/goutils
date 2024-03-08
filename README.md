@@ -16,17 +16,17 @@ import (
 
 func eg() {
 	var p *string = nil
-	println(nilOr(p, "hello"))  // => hello
+	println(val.NilOr(p, "hello"))  // => hello
 
 	x := "olleh"
 	p = &x
-	println(nilOr(p, "hello"))  // => olleh
+	println(val.NilOr(p, "hello"))  // => olleh
 
 	var q *int = nil
-	println(nilOr(q, int(1)))   // => 1
+	println(val.NilOr(q, int(1)))   // => 1
 
 	y := 123
 	q = &y
-	println(nilOr(q, int(1)))  // => 123
+	println(val.NilOr(q, int(1)))  // => 123
 }
 ```
